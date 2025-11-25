@@ -1,0 +1,58 @@
+import React from "react";
+import schoolBanner from "../assets/home.png"; 
+
+export default function Home() {
+  return (
+    <div
+      style={{
+        position: "relative",
+        width: "100%",
+        height: "400px",
+        overflow: "hidden",
+        borderRadius: "10px",
+      }}
+    >
+      {/* Background Image */}
+      <img
+        src={schoolBanner}
+        alt="School Banner"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          filter: "brightness(60%)",
+        }}
+      />
+ 
+      <div
+        className="quote-box"
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          color: "off-white",
+          textAlign: "center",
+          padding: "20px",
+          animation: "fadeUp 2s ease-out",
+          width: "90%",
+        }}
+      >
+        <h2
+          style={{
+          fontFamily: "serif",
+          fontWeight: "bold",
+          fontSize: "28px",
+          lineHeight: "1.5",
+          background: "linear-gradient(to right, #ffffff, #e6e6e6)",
+          WebkitBackgroundClip: "text",
+         color: "transparent",
+          }}
+        >
+          विद्यां ददाति विनयं, विनयाद् याति पात्रताम्। <br />
+          पात्रत्वात् धनमाप्नोति, धनात् धर्मं ततः सुखम्॥
+        </h2>
+      </div>
+    </div>
+  );
+}
