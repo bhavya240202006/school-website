@@ -14,13 +14,12 @@ import Intro from "./Intro";
 export default function App() {
   return (
     <>
-
       <Routes>
  
-        <Route path="/intro" element={<Intro />} />
+        <Route path="/" element={<Intro />} />
  
         <Route
-          path="/"
+          path="/home"
           element={
             <>
               <Navbar />
@@ -41,8 +40,7 @@ export default function App() {
             </>
           }
         />
- 
- 
+
         <Route
           path="/gallery"
           element={
@@ -53,7 +51,7 @@ export default function App() {
             </>
           }
         />
- 
+
         <Route
           path="/contact"
           element={
@@ -64,9 +62,9 @@ export default function App() {
             </>
           }
         />
- 
-        <Route path="*" element={<Navigate to="/intro" />} />
 
+        
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </>
   );

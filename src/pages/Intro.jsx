@@ -51,7 +51,7 @@ export default function Intro() {
 
     
       <button
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/home")}
         style={{
           marginTop: "40px",
           padding: "12px 30px",
