@@ -56,32 +56,32 @@ export default function Gallery() {
     <div style={{ padding: "20px" }}>
 
       <GallerySection
-        title="Diwali Celebration"
+        title="दीपावली उत्सव"
         images={[d1, d2, d3]}
       />
 
       <GallerySection
-        title="Samvidhan Diwas"
+        title="संविधान दिवस"
         images={[s1, s2, s3]}
       />
 
       <GallerySection
-        title="Nasha Mukti Shapath"
+        title="नशा मुक्ति शपथ"
         images={[n1]}
       />
 
       <GallerySection
-        title="Parent-Teacher Meeting (PTM)"
+        title="पी.टी.एम."
         images={[ptm1]}
       />
 
       <GallerySection
-        title="Library Day"
+        title="पुस्तकालय दिवस समारोह"
         images={[l1,l3]}
       />
 
       <GallerySection
-        title="Prakhar Rajasthan"
+        title="प्रखर राजस्थान"
         images={[p1]}
       />
 

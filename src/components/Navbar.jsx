@@ -45,25 +45,25 @@ export default function Navbar() {
           <ul className="navbar-nav ms-auto text-center">
 
             <li className="nav-item" >
-              <NavLink className="nav-link px-3" to="/" style={{fontFamily: "Roboto"}}>
+              <NavLink className="nav-link px-3" to="/" style={{ffontFamily: "Roboto", fontSize: "3fh", lineHeight: "2"}}>
                 Home
               </NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link px-3" to="/about" style={{fontFamily: "Roboto"}}>
+              <NavLink className="nav-link px-3" to="/about" style={{fontFamily: "Roboto", fontSize: "3fh", lineHeight: "2"}}>
                 About
               </NavLink>
             </li>
 
             <li className="nav-item" style={{fontFamily: "Roboto"}}>
-              <NavLink className="nav-link px-3" to="/gallery" style={{fontFamily: "Roboto"}}>
+              <NavLink className="nav-link px-3" to="/gallery" style={{fontFamily: "Roboto", fontSize: "3fh", lineHeight: "2"}}>
                 Gallery
               </NavLink>
             </li>
 
             <li className="nav-item" style={{fontFamily: "Roboto"}}>
-              <NavLink className="nav-link px-3" to="/contact" style={{fontFamily: "Roboto"}}>
+              <NavLink className="nav-link px-3" to="/contact" style={{ffontFamily: "Roboto", fontSize: "3fh", lineHeight: "2" }}>
                 Contact
               </NavLink>
             </li>
