@@ -18,7 +18,7 @@ export default function Footer() {
             <h5 className="fw-bold mb-3">Contact Us</h5>
             <p style={{ color: "#ccc", margin: 0 }}>📍 GUPS 3B Badi,Ward No 10 <t/> Sharkaj Nahar,Pakki,335901</p>
             <p style={{ color: "#ccc", margin: 0 }}>📞 9784319640</p>
-            {/* <p style={{ color: "#ccc", margin: 0 }}>✉️ school@example.com</p> */}
+            <p style={{ color: "#ccc", margin: 0 }}>✉️ gups3bbadi@gmail.com</p>
           </div>
 
         </div>

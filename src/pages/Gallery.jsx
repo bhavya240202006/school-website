@@ -28,8 +28,8 @@ import p3 from "../assets/prakhar3.png";
 
  
 import u1 from "../assets/event1.png";
-import u2 from "../assets/event2.png";
-import u3 from "../assets/event3.png";
+import u2 from "../assets/event4.png";
+import u3 from "../assets/event2.png";
 
  
 function GallerySection({ title, images }) {
@@ -72,17 +72,17 @@ export default function Gallery() {
 
       <GallerySection
         title="Parent-Teacher Meeting (PTM)"
-        images={[ptm1, ptm2]}
+        images={[ptm1]}
       />
 
       <GallerySection
         title="Library Day"
-        images={[l1, l2, l3]}
+        images={[l1,l3]}
       />
 
       <GallerySection
         title="Prakhar Rajasthan"
-        images={[p1, p2, p3]}
+        images={[p1]}
       />
 
       <GallerySection

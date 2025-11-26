@@ -44,26 +44,26 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto text-center">
 
-            <li className="nav-item">
-              <NavLink className="nav-link px-3" to="/">
+            <li className="nav-item" >
+              <NavLink className="nav-link px-3" to="/" style={{fontFamily: "Roboto"}}>
                 Home
               </NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link px-3" to="/about">
+              <NavLink className="nav-link px-3" to="/about" style={{fontFamily: "Roboto"}}>
                 About
               </NavLink>
             </li>
 
-            <li className="nav-item">
-              <NavLink className="nav-link px-3" to="/gallery">
+            <li className="nav-item" style={{fontFamily: "Roboto"}}>
+              <NavLink className="nav-link px-3" to="/gallery" style={{fontFamily: "Roboto"}}>
                 Gallery
               </NavLink>
             </li>
 
-            <li className="nav-item">
-              <NavLink className="nav-link px-3" to="/contact">
+            <li className="nav-item" style={{fontFamily: "Roboto"}}>
+              <NavLink className="nav-link px-3" to="/contact" style={{fontFamily: "Roboto"}}>
                 Contact
               </NavLink>
             </li>

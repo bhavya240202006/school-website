@@ -3,7 +3,7 @@ import Card from "../components/card";
 
 import teacher1 from "../assets/teacher1.png";
 import teacher2 from "../assets/teacher2.png";
-import teacher3 from "../assets/teacher.png";
+import teacher3 from "../assets/teacher3.png";
 
 export default function Teachers() {
   return (
@@ -28,11 +28,11 @@ export default function Teachers() {
         text="Science teacher passionate about experiments."
       />
 
-      {/* <Card
+      <Card
         image={teacher3}
-        title="Mrs. Iyer"
+        title="Mrs. Monika"
         text="English teacher who loves literature."
-      /> */}
+      />
     </div>
   );
 }
