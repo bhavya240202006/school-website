@@ -16,9 +16,9 @@ export default function Footer() {
        
           <div className="text-center">
             <h5 className="fw-bold mb-3">Contact Us</h5>
-            <p style={{ color: "#ccc", margin: 0 }}>📍 ABC Road, Mumbai</p>
-            <p style={{ color: "#ccc", margin: 0 }}>📞 9876543210</p>
-            <p style={{ color: "#ccc", margin: 0 }}>✉️ school@example.com</p>
+            <p style={{ color: "#ccc", margin: 0 }}>📍 GUPS 3B Badi,Ward No 10 <t/> Sharkaj Nahar,Pakki,335901</p>
+            <p style={{ color: "#ccc", margin: 0 }}>📞 9784319640</p>
+            {/* <p style={{ color: "#ccc", margin: 0 }}>✉️ school@example.com</p> */}
           </div>
 
         </div>
@@ -27,7 +27,7 @@ export default function Footer() {
         <hr style={{ borderColor: "#444", margin: "20px 0" }} />
 
         <p className="text-center" style={{ color: "#888", fontSize: "14px" }}>
-          © {new Date().getFullYear()} ABC Public School. All Rights Reserved.
+          © {new Date().getFullYear()}  All Rights Reserved.
         </p>
 
       </div>

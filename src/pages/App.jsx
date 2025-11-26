@@ -14,7 +14,7 @@ import Intro from "./Intro";
 export default function App() {
   return (
     <>
-//hlloo
+
       <Routes>
  
         <Route path="/intro" element={<Intro />} />

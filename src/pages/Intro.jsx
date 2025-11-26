@@ -1,31 +1,37 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png";
+import bg from "../assets/mainGate.png";
 
 export default function Intro() {
   const navigate = useNavigate();
 
   return (
-    <div
-      style={{
-        height: "100vh",
-        width: "100%",
-        backgroundColor: "black",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        color: "white",
-        textAlign: "center",
-        overflow: "hidden",
-        position: "relative",
-      }}
-    >
+  <div
+  style={{
+    height: "100vh",
+    width: "100%",
+    backgroundImage: `url(${bg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    color: "white",
+    textAlign: "center",
+    overflow: "hidden",
+    position: "relative",
+  }}
+>
+
+    
       {/* Glowing Animation Background */}
       <div className="pulse-circle"></div>
 
       {/* Logo */}
-      <img
+      {/* <img
         src={logo}
         alt="Logo"
         style={{
@@ -36,14 +42,14 @@ export default function Intro() {
           marginBottom: "20px",
           animation: "fadeIn 2s ease",
         }}
-      />
+      /> */}
 
       {/* School Name */}
       <h1 style={{ animation: "slideDown 2s ease", fontFamily: "serif" }}>
-        ABC Public School
+        राजकीय उच्च प्राथमिक विद्यालय 3-बी बाड़ी
       </h1>
 
-      {/* Enter button */}
+    
       <button
         onClick={() => navigate("/")}
         style={{

@@ -1,5 +1,7 @@
 import React from "react";
 import schoolBanner from "../assets/home.png"; 
+import Gate1 from "../assets/mainGate2.png";
+import Gate2 from "../assets/mainGate.png";
 
 export default function Home() {
   return (
@@ -12,10 +14,10 @@ export default function Home() {
         borderRadius: "10px",
       }}
     >
-      {/* Background Image */}
+   
       <img
-        src={schoolBanner}
-        alt="School Banner"
+        src={Gate1}
+        alt="Gate1"
         style={{
           width: "100%",
           height: "100%",

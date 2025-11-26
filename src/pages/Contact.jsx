@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "../components/card";
 
-import teacher1 from "../assets/teacher.png";
-import teacher2 from "../assets/teacher.png";
+import teacher1 from "../assets/teacher1.png";
+import teacher2 from "../assets/teacher2.png";
 import teacher3 from "../assets/teacher.png";
 
 export default function Teachers() {
@@ -18,21 +18,21 @@ export default function Teachers() {
     >
       <Card
         image={teacher1}
-        title="Mrs. Sharma"
+        title="Mr. Sushil Kumar Chhabra"
         text="Mathematics teacher with 10 years of experience."
       />
 
       <Card
         image={teacher2}
-        title="Mr. Verma"
+        title="Mrs. Manju Bala"
         text="Science teacher passionate about experiments."
       />
 
-      <Card
+      {/* <Card
         image={teacher3}
         title="Mrs. Iyer"
         text="English teacher who loves literature."
-      />
+      /> */}
     </div>
   );
 }
