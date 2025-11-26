@@ -42,11 +42,11 @@ export default function Home() {
       >
         <h2
           style={{
-          fontFamily: "serif",
+          fontfamily: "Pragati Narrow",
           fontWeight: "bold",
           fontSize: "28px",
           lineHeight: "1.5",
-          background: "linear-gradient(to right, #ffffff, #e6e6e6)",
+          background: "linear-gradient(to right, #8e6d87ff, #efc2c2ff)",
           WebkitBackgroundClip: "text",
          color: "transparent",
           }}

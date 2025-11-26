@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import logo from "../assets/logo.png";  
+import logo from "../assets/logosmall.png";  
 
 export default function Navbar() {
   return (
@@ -11,13 +11,21 @@ export default function Navbar() {
             src={logo}
             alt="School Logo"
             style={{
-              height: "45px",
-              width: "45px",
+              height: "10%%",
+              width: "10%",
               objectFit: "contain",
               borderRadius:"50%",
             }}
           />
-          <span className="fw-bold fs-5 d-none d-md-inline">School Name</span>
+          <span
+          className="fw fs-3 d-none d-md-inline"
+          style={{ fontFamily: "Pragati Narrow"
+                   
+           }}
+          >
+          राजकीय उच्च प्राथमिक विद्यालय 3-बी बाड़ी
+          </span>
+
         </Link>
 
         

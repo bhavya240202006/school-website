@@ -17,19 +17,19 @@
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
 }
-/* Fade In */
+
 @keyframes fadeIn {
   0% { opacity: 0; transform: scale(0.9); }
   100% { opacity: 1; transform: scale(1); }
 }
 
-/* Slide Down */
+
 @keyframes slideDown {
   0% { opacity: 0; transform: translateY(-30px); }
   100% { opacity: 1; transform: translateY(0); }
 }
 
-/* Pulsing background */
+ 
 .pulse-circle {
   position: absolute;
   width: 400px;
