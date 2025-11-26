@@ -45,7 +45,7 @@ export default function Navbar() {
           <ul className="navbar-nav ms-auto text-center">
 
             <li className="nav-item" >
-              <NavLink className="nav-link px-3" to="/" style={{ffontFamily: "Roboto", fontSize: "3fh", lineHeight: "2"}}>
+              <NavLink className="nav-link px-3" to="/home" style={{ffontFamily: "Roboto", fontSize: "3fh", lineHeight: "2"}}>
                 Home
               </NavLink>
             </li>
