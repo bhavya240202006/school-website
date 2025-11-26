@@ -1,6 +1,6 @@
 import React from "react";
 import schoolBanner from "../assets/home.png"; 
-import Gate1 from "../assets/mainGate2.png";
+import Gate1 from "../assets/maingate2.png";
 import Gate2 from "../assets/mainGate.png";
 
 export default function Home() {
